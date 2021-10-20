@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>1.0</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/Python27/lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="FakerLibrary" path="C:/Python27/lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="ExtMVC" path="TotalTransact/Libraries/UI/Ext/MVC"/>
+    <referencedLibrary type="PYTHON" name="HttpLibrary.HTTP" path="C:/Python27/lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="JsonpathLibrary" path="TotalTransact/Libraries/Util"/>
+    <referencedLibrary type="PYTHON" name="RequestsLibrary" path="C:/Python27/lib/site-packages/RequestsLibrary"/>
+    <pythonpath>
+        <path location="C:\Python27\Lib\site-packages\robot\libraries"/>
+    </pythonpath>
+    <classpath/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+    <isReferencedLibrariesAutoReloadEnabled>true</isReferencedLibrariesAutoReloadEnabled>
+    <isReferencedLibrariesAutoDiscoveringEnabled>true</isReferencedLibrariesAutoDiscoveringEnabled>
+    <isLibrariesAutoDiscoveringSummaryWindowEnabled>false</isLibrariesAutoDiscoveringSummaryWindowEnabled>
+</projectConfiguration>

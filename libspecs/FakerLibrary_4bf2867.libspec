@@ -1,0 +1,2227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2021-01-13T11:38:27Z" lineno="8" name="FakerLibrary" namedargs="true" scope="GLOBAL" source="C:\Python37\Lib\site-packages\FakerLibrary\__init__.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>    </doc>
+<init lineno="41" source="..\..\..\..\..\Python37\Lib\site-packages\FakerLibrary\keywords.py">
+<arguments>
+<arg>locale=None</arg>
+<arg>providers=None</arg>
+<arg>seed=None</arg>
+</arguments>
+<doc>Initialize self.  See help(type(self)) for accurate signature.</doc>
+</init>
+<kw lineno="19" name="Add Provider" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>provider</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="68" name="Address" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc>:example '791 Crist Parks, Sashabury, IL 86039-9874'</doc>
+</kw>
+<kw lineno="1960" name="Am Pm" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="213" name="Android Platform Token" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="170" name="Ascii Company Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="149" name="Ascii Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="164" name="Ascii Free Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="156" name="Ascii Safe Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="25" name="Bank Country" source="C:\Python37\Lib\site-packages\faker\providers\bank\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="28" name="Bban" source="C:\Python37\Lib\site-packages\faker\providers\bank\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="38" name="Binary" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>length=1048576</arg>
+</arguments>
+<doc>Generate a random binary blob of ``length`` bytes.
+
+:sample: length=64</doc>
+</kw>
+<kw lineno="18" name="Boolean" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>chance_of_getting_true=50</arg>
+</arguments>
+<doc>Generate a random boolean value based on ``chance_of_getting_true``.
+
+:sample size=10: chance_of_getting_true=25
+:sample size=10: chance_of_getting_true=50
+:sample size=10: chance_of_getting_true=75</doc>
+</kw>
+<kw lineno="439" name="Bothify" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>text=## ??</arg>
+<arg>letters=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</arg>
+</arguments>
+<doc>Generate a string with each placeholder in ``text`` replaced according
+to the following rules:
+
+- Number signs ('#') are replaced with a random digit (0 to 9).
+- Question marks ('?') are replaced with a random character from ``letters``.
+
+By default, ``letters`` contains all ASCII letters, uppercase and lowercase.
+
+Under the hood, this method uses :meth:`numerify() &lt;faker.providers.BaseProvider.numerify&gt;` and
+and :meth:`lexify() &lt;faker.providers.BaseProvider.lexify&gt;` to generate random values for number
+signs and question marks respectively.
+
+:sample: letters='ABCDE'
+:sample: text='Product Number: ????-########'
+:sample: text='Product Number: ????-########', letters='ABCDE'</doc>
+</kw>
+<kw lineno="516" name="Bs" source="C:\Python37\Lib\site-packages\faker\providers\company\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'integrate extensible convergence'</doc>
+</kw>
+<kw lineno="35" name="Building Number" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc>:example '791'</doc>
+</kw>
+<kw lineno="506" name="Catch Phrase" source="C:\Python37\Lib\site-packages\faker\providers\company\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'Robust full-range hub'</doc>
+</kw>
+<kw lineno="1978" name="Century" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'XVII'</doc>
+</kw>
+<kw lineno="48" name="Chrome" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+<arg>version_from=13</arg>
+<arg>version_to=63</arg>
+<arg>build_from=800</arg>
+<arg>build_to=899</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="41" name="City" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'Sashabury'</doc>
+</kw>
+<kw lineno="346" name="City Prefix" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="23" name="City Suffix" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'town'</doc>
+</kw>
+<kw lineno="191" name="Color" source="C:\Python37\Lib\site-packages\faker\providers\color\__init__.py">
+<arguments>
+<arg>hue=None</arg>
+<arg>luminosity=None</arg>
+<arg>color_format=hex</arg>
+</arguments>
+<doc>Generate random color in the specified ``color_format`` for the given ``hue`` and ``luminosity``.
+
+Under the hood, this method first creates a color represented in the HSV color model and then converts
+it to the desired ``color_format``. The argument ``hue`` controls the H value according to the following
+rules:
+
+- If the value is a number from ``0`` to ``360``, it will serve as the H value of the generated color.
+- If the value is a tuple/list of 2 numbers from 0 to 360, the color's H value will be randomly selected
+  from that range.
+- If the value is a valid string, the color's H value will be randomly selected from the H range
+  corresponding to the supplied string. Valid values are ``'monochrome'``, ``'red'``, ``'orange'``,
+  ``'yellow'``, ``'green'``, ``'blue'``, ``'purple'``, and ``'pink'``.
+
+The argument ``luminosity`` influences both S and V values and is partially affected by ``hue`` as well.
+The finer details of this relationship are somewhat involved, so please refer to the source code instead
+if you wish to dig deeper. To keep the interface simple, this argument either can be omitted or can accept
+the following string values:``'bright'``, ``'dark'``, ``'light'``, or ``'random'``.
+
+The argument ``color_format`` controls in which color model the color is represented. Valid values are
+``'hsv'``, ``'hsl'``, ``'rgb'``, or ``'hex'`` (default).
+
+:sample: hue='red'
+:sample: luminosity='light'
+:sample: hue=(100, 200), color_format='rgb'
+:sample: hue='orange', luminosity='bright'
+:sample: hue=135, luminosity='dark', color_format='hsv'
+:sample: hue=(300, 20), luminosity='random', color_format='hsl'</doc>
+</kw>
+<kw lineno="159" name="Color Name" source="C:\Python37\Lib\site-packages\faker\providers\color\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="493" name="Company" source="C:\Python37\Lib\site-packages\faker\providers\company\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'Acme Ltd'</doc>
+</kw>
+<kw lineno="141" name="Company Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="500" name="Company Suffix" source="C:\Python37\Lib\site-packages\faker\providers\company\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'Ltd'</doc>
+</kw>
+<kw lineno="977" name="Coordinate" source="C:\Python37\Lib\site-packages\faker\providers\geo\__init__.py">
+<arguments>
+<arg>center=None</arg>
+<arg>radius=0.001</arg>
+</arguments>
+<doc>Optionally center the coord and pick a point within radius.</doc>
+</kw>
+<kw lineno="75" name="Country" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="66" name="Country Calling Code" source="C:\Python37\Lib\site-packages\faker\providers\phone_number\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="78" name="Country Code" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+<arg>representation=alpha-2</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="76" name="Credit Card Expire" source="C:\Python37\Lib\site-packages\faker\providers\credit_card\__init__.py">
+<arguments>
+<arg>start=now</arg>
+<arg>end=+10y</arg>
+<arg>date_format=%m/%y</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="80" name="Credit Card Full" source="C:\Python37\Lib\site-packages\faker\providers\credit_card\__init__.py">
+<arguments>
+<arg>card_type=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="69" name="Credit Card Number" source="C:\Python37\Lib\site-packages\faker\providers\credit_card\__init__.py">
+<arguments>
+<arg>card_type=None</arg>
+</arguments>
+<doc>Returns a valid credit card number.</doc>
+</kw>
+<kw lineno="63" name="Credit Card Provider" source="C:\Python37\Lib\site-packages\faker\providers\credit_card\__init__.py">
+<arguments>
+<arg>card_type=None</arg>
+</arguments>
+<doc>Returns the provider's name of the credit card.</doc>
+</kw>
+<kw lineno="98" name="Credit Card Security Code" source="C:\Python37\Lib\site-packages\faker\providers\credit_card\__init__.py">
+<arguments>
+<arg>card_type=None</arg>
+</arguments>
+<doc>Returns a security code string.</doc>
+</kw>
+<kw lineno="257" name="Cryptocurrency" source="C:\Python37\Lib\site-packages\faker\providers\currency\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="260" name="Cryptocurrency Code" source="C:\Python37\Lib\site-packages\faker\providers\currency\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="263" name="Cryptocurrency Name" source="C:\Python37\Lib\site-packages\faker\providers\currency\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="336" name="Csv" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>header=None</arg>
+<arg>data_columns=('{{name}}', '{{address}}')</arg>
+<arg>num_rows=10</arg>
+<arg>include_row_ids=False</arg>
+</arguments>
+<doc>Generate random comma-separated values.
+
+For more information on the different arguments of this method, please refer to
+:meth:`dsv() &lt;faker.providers.misc.Provider.dsv&gt;` which is used under the hood.
+
+:sample: data_columns=('{{name}}', '{{address}}'), num_rows=10, include_row_ids=False
+:sample: header=('Name', 'Address', 'Favorite Color'),
+        data_columns=('{{name}}', '{{address}}', '{{safe_color_name}}'),
+        num_rows=10, include_row_ids=True</doc>
+</kw>
+<kw lineno="240" name="Currency" source="C:\Python37\Lib\site-packages\faker\providers\currency\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="243" name="Currency Code" source="C:\Python37\Lib\site-packages\faker\providers\currency\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="246" name="Currency Name" source="C:\Python37\Lib\site-packages\faker\providers\currency\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="249" name="Currency Symbol" source="C:\Python37\Lib\site-packages\faker\providers\currency\__init__.py">
+<arguments>
+<arg>code=None</arg>
+</arguments>
+<doc>:example: $</doc>
+</kw>
+<kw lineno="1453" name="Date" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>pattern=%Y-%m-%d</arg>
+<arg>end_datetime=None</arg>
+</arguments>
+<doc>Get a date string between January 1, 1970 and now
+:param pattern format
+:example '2008-11-27'</doc>
+</kw>
+<kw lineno="1591" name="Date Between" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>start_date=-30y</arg>
+<arg>end_date=today</arg>
+</arguments>
+<doc>Get a Date object based on a random date between two given dates.
+Accepts date strings that can be recognized by strtotime().
+
+:param start_date Defaults to 30 years ago
+:param end_date Defaults to "today"
+:example Date('1999-02-02')
+:return Date</doc>
+</kw>
+<kw lineno="1701" name="Date Between Dates" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>date_start=None</arg>
+<arg>date_end=None</arg>
+</arguments>
+<doc>Takes two Date objects and returns a random date between the two given dates.
+Accepts Date or Datetime objects
+
+:param date_start: Date
+:param date_end: Date
+:return Date</doc>
+</kw>
+<kw lineno="1461" name="Date Object" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>end_datetime=None</arg>
+</arguments>
+<doc>Get a date object between January 1, 1970 and now
+:example datetime.date(2016, 9, 20)</doc>
+</kw>
+<kw lineno="1988" name="Date Of Birth" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>tzinfo=None</arg>
+<arg>minimum_age=0</arg>
+<arg>maximum_age=115</arg>
+</arguments>
+<doc>Generate a random date of birth represented as a Date object,
+constrained by optional miminimum_age and maximum_age
+parameters.
+
+:param tzinfo Defaults to None.
+:param minimum_age Defaults to 0.
+:param maximum_age Defaults to 115.
+
+:example Date('1979-02-02')
+:return Date</doc>
+</kw>
+<kw lineno="1831" name="Date This Century" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_today=True</arg>
+<arg>after_today=False</arg>
+</arguments>
+<doc>Gets a Date object for the current century.
+
+:param before_today: include days in current century before today
+:param after_today: include days in current century after today
+:example Date('2012-04-04')
+:return Date</doc>
+</kw>
+<kw lineno="1854" name="Date This Decade" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_today=True</arg>
+<arg>after_today=False</arg>
+</arguments>
+<doc>Gets a Date object for the decade year.
+
+:param before_today: include days in current decade before today
+:param after_today: include days in current decade after today
+:example Date('2012-04-04')
+:return Date</doc>
+</kw>
+<kw lineno="1898" name="Date This Month" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_today=True</arg>
+<arg>after_today=False</arg>
+</arguments>
+<doc>Gets a Date object for the current month.
+
+:param before_today: include days in current month before today
+:param after_today: include days in current month after today
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('2012-04-04 11:02:02')
+:return DateTime</doc>
+</kw>
+<kw lineno="1876" name="Date This Year" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_today=True</arg>
+<arg>after_today=False</arg>
+</arguments>
+<doc>Gets a Date object for the current year.
+
+:param before_today: include days in current year before today
+:param after_today: include days in current year after today
+:example Date('2012-04-04')
+:return Date</doc>
+</kw>
+<kw lineno="1406" name="Date Time" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>tzinfo=None</arg>
+<arg>end_datetime=None</arg>
+</arguments>
+<doc>Get a datetime object for a date between January 1, 1970 and now
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('2005-08-16 20:39:21')
+:return datetime</doc>
+</kw>
+<kw lineno="1419" name="Date Time Ad" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>tzinfo=None</arg>
+<arg>end_datetime=None</arg>
+<arg>start_datetime=None</arg>
+</arguments>
+<doc>Get a datetime object for a date between January 1, 001 and now
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('1265-03-22 21:15:52')
+:return datetime</doc>
+</kw>
+<kw lineno="1567" name="Date Time Between" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>start_date=-30y</arg>
+<arg>end_date=now</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Get a DateTime object based on a random date between two given dates.
+Accepts date strings that can be recognized by strtotime().
+
+:param start_date Defaults to 30 years ago
+:param end_date Defaults to "now"
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('1999-02-02 11:42:52')
+:return DateTime</doc>
+</kw>
+<kw lineno="1662" name="Date Time Between Dates" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>datetime_start=None</arg>
+<arg>datetime_end=None</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Takes two DateTime objects and returns a random datetime between the two
+given datetimes.
+Accepts DateTime objects.
+
+:param datetime_start: DateTime
+:param datetime_end: DateTime
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('1999-02-02 11:42:52')
+:return DateTime</doc>
+</kw>
+<kw lineno="1712" name="Date Time This Century" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_now=True</arg>
+<arg>after_now=False</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Gets a DateTime object for the current century.
+
+:param before_now: include days in current century before today
+:param after_now: include days in current century after today
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('2012-04-04 11:02:02')
+:return DateTime</doc>
+</kw>
+<kw lineno="1742" name="Date Time This Decade" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_now=True</arg>
+<arg>after_now=False</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Gets a DateTime object for the decade year.
+
+:param before_now: include days in current decade before today
+:param after_now: include days in current decade after today
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('2012-04-04 11:02:02')
+:return DateTime</doc>
+</kw>
+<kw lineno="1801" name="Date Time This Month" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_now=True</arg>
+<arg>after_now=False</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Gets a DateTime object for the current month.
+
+:param before_now: include days in current month before today
+:param after_now: include days in current month after today
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('2012-04-04 11:02:02')
+:return DateTime</doc>
+</kw>
+<kw lineno="1772" name="Date Time This Year" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>before_now=True</arg>
+<arg>after_now=False</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Gets a DateTime object for the current year.
+
+:param before_now: include days in current year before today
+:param after_now: include days in current year after today
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('2012-04-04 11:02:02')
+:return DateTime</doc>
+</kw>
+<kw lineno="1963" name="Day Of Month" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1966" name="Day Of Week" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="225" name="Dga" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>year=None</arg>
+<arg>month=None</arg>
+<arg>day=None</arg>
+<arg>tld=None</arg>
+<arg>length=None</arg>
+</arguments>
+<doc>Generates a domain name by given date
+https://en.wikipedia.org/wiki/Domain_generation_algorithm
+
+:type year: int
+:type month: int
+:type day: int
+:type tld: str
+:type length: int
+:rtype: str</doc>
+</kw>
+<kw lineno="200" name="Domain Name" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>levels=1</arg>
+</arguments>
+<doc>Produce an Internet domain name with the specified number of
+subdomain levels.
+
+&gt;&gt;&gt; domain_name()
+nichols-phillips.com
+&gt;&gt;&gt; domain_name(2)
+williamson-hopkins.jackson.com</doc>
+</kw>
+<kw lineno="219" name="Domain Word" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="282" name="Dsv" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>dialect=faker-csv</arg>
+<arg>header=None</arg>
+<arg>data_columns=('{{name}}', '{{address}}')</arg>
+<arg>num_rows=10</arg>
+<arg>include_row_ids=False</arg>
+<arg>**fmtparams</arg>
+</arguments>
+<doc>Generate random delimiter-separated values.
+
+This method's behavior share some similarities with ``csv.writer``. The ``dialect`` and
+``**fmtparams`` arguments are the same arguments expected by ``csv.writer`` to control its
+behavior, and instead of expecting a file-like object to where output will be written, the
+output is controlled by additional keyword arguments and is returned as a string.
+
+The ``dialect`` argument defaults to ``'faker-csv'`` which is the name of a ``csv.excel``
+subclass with full quoting enabled.
+
+The ``header`` argument expects a list or a tuple of strings that will serve as the header row
+if supplied. The ``data_columns`` argument expects a list or a tuple of string tokens, and these
+string tokens will be passed to  :meth:`pystr_format() &lt;faker.providers.python.Provider.pystr_format&gt;`
+for data generation. Both ``header`` and ``data_columns`` myst be of the same length.
+
+The ``num_rows`` argument controls how many rows of data to generate, and the ``include_row_ids``
+argument may be set to ``True`` to include a sequential row ID column.
+
+:sample: dialect='excel', data_columns=('{{name}}', '{{address}}')
+:sample: dialect='excel-tab', data_columns=('{{name}}', '{{address}}'), include_row_ids=True
+:sample: data_columns=('{{name}}', '{{address}}'), num_rows=5, delimiter='$'</doc>
+</kw>
+<kw lineno="113" name="Ean" source="C:\Python37\Lib\site-packages\faker\providers\barcode\__init__.py">
+<arguments>
+<arg>length=13</arg>
+</arguments>
+<doc>Generate an EAN barcode of the specified ``length``.
+
+The value of ``length`` can only be ``8`` or ``13`` (default)  which will
+create an EAN-8 or an EAN-13 barcode respectively.
+
+:sample: length=13
+:sample: length=8</doc>
+</kw>
+<kw lineno="134" name="Ean 13" source="C:\Python37\Lib\site-packages\faker\providers\barcode\__init__.py">
+<arguments>
+<arg>leading_zero=None</arg>
+</arguments>
+<doc>Generate an EAN-13 barcode.
+
+If ``leading_digit`` is ``True``, the leftmost digit of the barcode will be set
+to ``0``. If ``False``, the leftmost digit cannot be ``0``. If ``None`` (default),
+the leftmost digit can be any digit.
+
+Note that an EAN-13 barcode that starts with a zero can be converted to UPC-A
+by dropping the leading zero.
+
+This method uses :meth:`ean() &lt;faker.providers.barcode.Provider.ean&gt;` under the
+hood with the ``length`` argument explicitly set to ``13``.
+
+:sample:
+:sample: leading_zero=False
+:sample: leading_zero=True</doc>
+</kw>
+<kw lineno="124" name="Ean 8" source="C:\Python37\Lib\site-packages\faker\providers\barcode\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate an EAN-8 barcode.
+
+This method uses :meth:`ean() &lt;faker.providers.barcode.Provider.ean&gt;` under the
+hood with the ``length`` argument explicitly set to ``8``.
+
+:sample:</doc>
+</kw>
+<kw lineno="32" name="Ein" source="C:\Python37\Lib\site-packages\faker\providers\ssn\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random United States Employer Identification Number (EIN).
+
+An United States An Employer Identification Number (EIN) is
+also known as a Federal Tax Identification Number, and is
+used to identify a business entity. EINs follow a format of a
+two-digit prefix followed by a hyphen and a seven-digit sequence:
+##-######
+
+https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers</doc>
+</kw>
+<kw lineno="122" name="Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>domain=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="220" name="File Extension" source="C:\Python37\Lib\site-packages\faker\providers\file\__init__.py">
+<arguments>
+<arg>category=None</arg>
+</arguments>
+<doc>:param category: audio|image|office|text|video</doc>
+</kw>
+<kw lineno="211" name="File Name" source="C:\Python37\Lib\site-packages\faker\providers\file\__init__.py">
+<arguments>
+<arg>category=None</arg>
+<arg>extension=None</arg>
+</arguments>
+<doc>:param category: audio|image|office|text|video
+:param extension: file extension</doc>
+</kw>
+<kw lineno="228" name="File Path" source="C:\Python37\Lib\site-packages\faker\providers\file\__init__.py">
+<arguments>
+<arg>depth=1</arg>
+<arg>category=None</arg>
+<arg>extension=None</arg>
+</arguments>
+<doc>:param category: audio|image|office|text|video
+:param extension: file extension
+:param depth: depth of the file (depth &gt;= 0)</doc>
+</kw>
+<kw lineno="87" name="Firefox" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="20" name="First Name" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="47" name="First Name Female" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="42" name="First Name Male" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="70" name="Format" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>formatter</arg>
+<arg>*args</arg>
+<arg>**kwargs</arg>
+</arguments>
+<doc>This is a secure way to make a fake from another Provider.</doc>
+</kw>
+<kw lineno="137" name="Free Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="145" name="Free Email Domain" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1621" name="Future Date" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>end_date=+30d</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Get a Date object based on a random date between 1 day from now and a
+given date.
+Accepts date strings that can be recognized by strtotime().
+
+:param end_date Defaults to "+30d"
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('1999-02-02 11:42:52')
+:return DateTime</doc>
+</kw>
+<kw lineno="1606" name="Future Datetime" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>end_date=+30d</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Get a DateTime object based on a random date between 1 second form now
+and a given date.
+Accepts date strings that can be recognized by strtotime().
+
+:param end_date Defaults to "+30d"
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('1999-02-02 11:42:52')
+:return DateTime</doc>
+</kw>
+<kw lineno="105" name="Generator Format Token" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>matches</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="77" name="Get Formatter" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>formatter</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="45" name="Get Providers" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+</arguments>
+<doc>Returns added providers.</doc>
+</kw>
+<kw lineno="165" name="Hex Color" source="C:\Python37\Lib\site-packages\faker\providers\color\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="458" name="Hexify" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>text=^^^^</arg>
+<arg>upper=False</arg>
+</arguments>
+<doc>Generate a string with each circumflex ('^') in ``text``
+replaced with a random hexadecimal character.
+
+By default, ``upper`` is set to False. If set to ``True``, output
+will be formatted using uppercase hexadecimal characters.
+
+:sample: text='MAC Address: ^^:^^:^^:^^:^^:^^'
+:sample: text='MAC Address: ^^:^^:^^:^^:^^:^^', upper=True</doc>
+</kw>
+<kw lineno="184" name="Hostname" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>levels=1</arg>
+</arguments>
+<doc>Produce a hostname with specified number of subdomain levels.
+
+&gt;&gt;&gt; hostname()
+db-01.nichols-phillips.com
+&gt;&gt;&gt; hostname(0)
+laptop-56
+&gt;&gt;&gt; hostname(2)
+web-12.williamson-hopkins.jackson.com</doc>
+</kw>
+<kw lineno="255" name="Http Method" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc>Returns random HTTP method
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+:rtype: str</doc>
+</kw>
+<kw lineno="34" name="Iban" source="C:\Python37\Lib\site-packages\faker\providers\bank\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="562" name="Image Url" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>width=None</arg>
+<arg>height=None</arg>
+</arguments>
+<doc>Returns URL to placeholder image
+Example: http://placehold.it/640x480</doc>
+</kw>
+<kw lineno="41" name="Init" source="C:\Python37\Lib\site-packages\FakerLibrary\keywords.py">
+<arguments>
+<arg>locale=None</arg>
+<arg>providers=None</arg>
+<arg>seed=None</arg>
+</arguments>
+<doc>Initialize self.  See help(type(self)) for accurate signature.</doc>
+</kw>
+<kw lineno="192" name="Internet Explorer" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="139" name="Invalid Ssn" source="C:\Python37\Lib\site-packages\faker\providers\ssn\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random invalid United States Social Security Identification Number (SSN).
+
+Invalid SSNs have the following characteristics:
+Cannot begin with the number 9
+Cannot begin with 666 in positions 1 - 3
+Cannot begin with 000 in positions 1 - 3
+Cannot contain 00 in positions 4 - 5
+Cannot contain 0000 in positions 6 - 9
+
+https://www.ssa.gov/kc/SSAFactSheet--IssuingSSNs.pdf
+
+Additionally, return an invalid SSN that is NOT a valid ITIN by excluding certain ITIN related "group" values</doc>
+</kw>
+<kw lineno="216" name="Ios Platform Token" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="466" name="Ipv 4" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>network=False</arg>
+<arg>address_class=None</arg>
+<arg>private=None</arg>
+</arguments>
+<doc>Returns a random IPv4 address or network with a valid CIDR.
+
+:param network: Network address
+:param address_class: IPv4 address class (a, b, or c)
+:param private: Public or private
+:returns: IPv4</doc>
+</kw>
+<kw lineno="507" name="Ipv 6" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>network=False</arg>
+</arguments>
+<doc>Produce a random IPv6 address or network with a valid CIDR</doc>
+</kw>
+<kw lineno="458" name="Ipv4 Network Class" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc>Returns a IPv4 network class 'a', 'b' or 'c'.
+
+:returns: IPv4 network class</doc>
+</kw>
+<kw lineno="485" name="Ipv4 Private" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>network=False</arg>
+<arg>address_class=None</arg>
+</arguments>
+<doc>Returns a private IPv4.
+
+:param network: Network address
+:param address_class: IPv4 address class (a, b, or c)
+:returns: Private IPv4</doc>
+</kw>
+<kw lineno="496" name="Ipv4 Public" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>network=False</arg>
+<arg>address_class=None</arg>
+</arguments>
+<doc>Returns a public IPv4 excluding private blocks.
+
+:param network: Network address
+:param address_class: IPv4 address class (a, b, or c)
+:returns: Public IPv4</doc>
+</kw>
+<kw lineno="66" name="Isbn 10" source="C:\Python37\Lib\site-packages\faker\providers\isbn\__init__.py">
+<arguments>
+<arg>separator=-</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="61" name="Isbn 13" source="C:\Python37\Lib\site-packages\faker\providers\isbn\__init__.py">
+<arguments>
+<arg>separator=-</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1446" name="Iso 8601" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>tzinfo=None</arg>
+<arg>end_datetime=None</arg>
+</arguments>
+<doc>:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example '2003-10-21T16:05:52+0000'</doc>
+</kw>
+<kw lineno="10" name="Itin" source="C:\Python37\Lib\site-packages\faker\providers\ssn\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random United States Individual Taxpayer Identification Number (ITIN).
+
+An United States Individual Taxpayer Identification Number
+(ITIN) is a tax processing number issued by the Internal
+Revenue Service. It is a nine-digit number that always begins
+with the number 9 and has a range of 70-88 in the fourth and
+fifth digit. Effective April 12, 2011, the range was extended
+to include 900-70-0000 through 999-88-9999, 900-90-0000
+through 999-92-9999 and 900-94-0000 through 999-99-9999.
+https://www.irs.gov/individuals/international-taxpayers/general-itin-information</doc>
+</kw>
+<kw lineno="649" name="Job" source="C:\Python37\Lib\site-packages\faker\providers\job\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="96" name="Language Code" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random i18n language code (e.g. en).
+
+:sample:</doc>
+</kw>
+<kw lineno="23" name="Last Name" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="57" name="Last Name Female" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="52" name="Last Name Male" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="991" name="Latitude" source="C:\Python37\Lib\site-packages\faker\providers\geo\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="998" name="Latlng" source="C:\Python37\Lib\site-packages\faker\providers\geo\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="428" name="Lexify" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>text=????</arg>
+<arg>letters=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</arg>
+</arguments>
+<doc>Generate a string with each question mark ('?') in ``text``
+replaced with a random character from ``letters``.
+
+By default, ``letters`` contains all ASCII letters, uppercase and lowercase.
+
+:sample: text='Random Identifier: ??????????'
+:sample: text='Random Identifier: ??????????', letters='ABCDE'</doc>
+</kw>
+<kw lineno="13" name="License Plate" source="C:\Python37\Lib\site-packages\faker\providers\automotive\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="202" name="Linux Platform Token" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="41" name="Linux Processor" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1001" name="Local Latlng" source="C:\Python37\Lib\site-packages\faker\providers\geo\__init__.py">
+<arguments>
+<arg>country_code=US</arg>
+<arg>coords_only=False</arg>
+</arguments>
+<doc>Returns a location known to exist on land in a country specified by `country_code`.
+Defaults to 'en_US'. See the `land_coords` list for available locations/countries.</doc>
+</kw>
+<kw lineno="86" name="Locale" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random underscored i18n locale code (e.g. en_US).
+
+:sample:</doc>
+</kw>
+<kw lineno="1010" name="Location On Land" source="C:\Python37\Lib\site-packages\faker\providers\geo\__init__.py">
+<arguments>
+<arg>coords_only=False</arg>
+</arguments>
+<doc>Returns a random tuple specifying a coordinate set guaranteed to exist on land.
+Format is `(latitude, longitude, place name, two-letter country code, timezone)`
+Pass `coords_only` to return coordinates without metadata.</doc>
+</kw>
+<kw lineno="995" name="Longitude" source="C:\Python37\Lib\site-packages\faker\providers\geo\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="516" name="Mac Address" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="206" name="Mac Platform Token" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="38" name="Mac Processor" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="46" name="Md 5" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>raw_output=False</arg>
+</arguments>
+<doc>Generate a random MD5 hash.
+
+If ``raw_output`` is ``False`` (default), a hexadecimal string representation of the MD5 hash
+will be returned. If ``True``, a ``bytes`` object representation will be returned instead.
+
+:sample: raw_output=False
+:sample: raw_output=True</doc>
+</kw>
+<kw lineno="409" name="Military Apo" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'PSC 5394 Box 3492</doc>
+</kw>
+<kw lineno="415" name="Military Dpo" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'Unit 3333 Box 9342'</doc>
+</kw>
+<kw lineno="397" name="Military Ship" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'USS'</doc>
+</kw>
+<kw lineno="403" name="Military State" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'APO'</doc>
+</kw>
+<kw lineno="203" name="Mime Type" source="C:\Python37\Lib\site-packages\faker\providers\file\__init__.py">
+<arguments>
+<arg>category=None</arg>
+</arguments>
+<doc>:param category: application|audio|image|message|model|multipart|text|video</doc>
+</kw>
+<kw lineno="1969" name="Month" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1972" name="Month Name" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="69" name="Msisdn" source="C:\Python37\Lib\site-packages\faker\providers\phone_number\__init__.py">
+<arguments>
+</arguments>
+<doc>https://en.wikipedia.org/wiki/MSISDN</doc>
+</kw>
+<kw lineno="13" name="Name" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'John Doe'</doc>
+</kw>
+<kw lineno="34" name="Name Female" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="26" name="Name Male" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="27" name="Null Boolean" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate ``None``, ``True``, or ``False``, each with equal probability.
+
+:sample size=15:</doc>
+</kw>
+<kw lineno="396" name="Numerify" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>text=###</arg>
+</arguments>
+<doc>Generate a string with each placeholder in ``text`` replaced according
+to the following rules:
+
+- Number signs ('#') are replaced with a random digit (0 to 9).
+- Percent signs ('%') are replaced with a random non-zero digit (1 to 9).
+- Exclamation marks ('!') are replaced with a random digit or an empty string.
+- At symbols ('@') are replaced with a random non-zero digit or an empty string.
+
+Under the hood, this method uses :meth:`random_digit() &lt;faker.providers.BaseProvider.random_digit&gt;`,
+:meth:`random_digit_not_null() &lt;faker.providers.BaseProvider.random_digit_not_null&gt;`,
+:meth:`random_digit_or_empty() &lt;faker.providers.BaseProvider.random_digit_or_empty&gt;`,
+and :meth:`random_digit_not_null_or_empty() &lt;faker.providers.BaseProvider.random_digit_not_null_or_empty&gt;`
+to generate the random values.
+
+:sample: text='Intel Core i%-%%##K vs AMD Ryzen % %%##X'
+:sample: text='!!! !!@ !@! !@@ @!! @!@ @@! @@@'</doc>
+</kw>
+<kw lineno="175" name="Opera" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="96" name="Paragraph" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>nb_sentences=3</arg>
+<arg>variable_nb_sentences=True</arg>
+<arg>ext_word_list=None</arg>
+</arguments>
+<doc>:returns: A single paragraph. For example: 'Sapiente sunt omnis. Ut
+    pariatur ad autem ducimus et. Voluptas rem voluptas sint modi dolorem amet.'
+
+Keyword arguments:
+:param nb_sentences: around how many sentences the paragraph should contain
+:param variable_nb_sentences: set to false if you want exactly ``nb``
+    sentences returned, otherwise the result may include a number of
+    sentences of ``nb`` +/-40% (with a minimum of 1)
+:param ext_word_list: a list of words you would like to have instead of
+    'Lorem ipsum'.
+
+:rtype: str</doc>
+</kw>
+<kw lineno="127" name="Paragraphs" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>nb=3</arg>
+<arg>ext_word_list=None</arg>
+</arguments>
+<doc>Generate an array of paragraphs
+:example [paragraph1, paragraph2, paragraph3]
+:param nb: how many paragraphs to return
+:param ext_word_list: a list of words you would like to have instead of
+    'Lorem ipsum'.
+
+:rtype: list</doc>
+</kw>
+<kw lineno="98" name="Parse" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>text</arg>
+</arguments>
+<doc>Replaces tokens (like '{{ tokenName }}' or '{{tokenName}}')
+with the result from the token method call.</doc>
+</kw>
+<kw lineno="105" name="Password" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>length=10</arg>
+<arg>special_chars=True</arg>
+<arg>digits=True</arg>
+<arg>upper_case=True</arg>
+<arg>lower_case=True</arg>
+</arguments>
+<doc>Generate a random password of the specified ``length``.
+
+The arguments ``special_chars``, ``digits``, ``upper_case``, and ``lower_case`` control
+what category of characters will appear in the generated password. If set to ``True``
+(default), at least one character from the corresponding category is guaranteed to appear.
+Special characters are characters from ``!@#$%^&amp;*()_+``, digits are characters from
+``0123456789``, and uppercase and lowercase characters are characters from the ASCII set of
+letters.
+
+:sample: length=12
+:sample: length=40, special_chars=False, upper_case=False</doc>
+</kw>
+<kw lineno="1649" name="Past Date" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>start_date=-30d</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Get a Date object based on a random date between a given date and 1 day
+ago.
+Accepts date strings that can be recognized by strtotime().
+
+:param start_date Defaults to "-30d"
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('1999-02-02 11:42:52')
+:return DateTime</doc>
+</kw>
+<kw lineno="1634" name="Past Datetime" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>start_date=-30d</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Get a DateTime object based on a random date between a given date and 1
+second ago.
+Accepts date strings that can be recognized by strtotime().
+
+:param start_date Defaults to "-30d"
+:param tzinfo: timezone, instance of datetime.tzinfo subclass
+:example DateTime('1999-02-02 11:42:52')
+:return DateTime</doc>
+</kw>
+<kw lineno="63" name="Phone Number" source="C:\Python37\Lib\site-packages\faker\providers\phone_number\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="520" name="Port Number" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>is_system=False</arg>
+<arg>is_user=False</arg>
+<arg>is_dynamic=False</arg>
+</arguments>
+<doc>Returns a network port number
+https://tools.ietf.org/html/rfc6335
+
+:param is_system: System or well-known ports
+:param is_user: User or registered ports
+:param is_dynamic: Dynamic / private / ephemeral ports
+:rtype: int</doc>
+</kw>
+<kw lineno="428" name="Postalcode" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="431" name="Postalcode In State" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+<arg>state_abbr=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="434" name="Postalcode Plus4" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="368" name="Postcode" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 86039-9874</doc>
+</kw>
+<kw lineno="375" name="Postcode In State" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+<arg>state_abbr=None</arg>
+</arguments>
+<doc>:returns: A random postcode within the provided state abbreviation
+
+:param state_abbr: A state abbreviation</doc>
+</kw>
+<kw lineno="62" name="Prefix" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="76" name="Prefix Female" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="71" name="Prefix Male" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="32" name="Profile" source="C:\Python37\Lib\site-packages\faker\providers\profile\__init__.py">
+<arguments>
+<arg>fields=None</arg>
+<arg>sex=None</arg>
+</arguments>
+<doc>Generates a complete profile.
+If "fields" is not empty, only the fields in the list will be returned</doc>
+</kw>
+<kw lineno="37" name="Provider" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="368" name="Psv" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>header=None</arg>
+<arg>data_columns=('{{name}}', '{{address}}')</arg>
+<arg>num_rows=10</arg>
+<arg>include_row_ids=False</arg>
+</arguments>
+<doc>Generate random pipe-separated values.
+
+For more information on the different arguments of this method, please refer to
+:meth:`dsv() &lt;faker.providers.misc.Provider.dsv&gt;` which is used under the hood.
+
+:sample: data_columns=('{{name}}', '{{address}}'), num_rows=10, include_row_ids=False
+:sample: header=('Name', 'Address', 'Favorite Color'),
+        data_columns=('{{name}}', '{{address}}', '{{safe_color_name}}'),
+        num_rows=10, include_row_ids=True</doc>
+</kw>
+<kw lineno="28" name="Pybool" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="107" name="Pydecimal" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>left_digits=None</arg>
+<arg>right_digits=None</arg>
+<arg>positive=False</arg>
+<arg>min_value=None</arg>
+<arg>max_value=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="179" name="Pydict" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>nb_elements=10</arg>
+<arg>variable_nb_elements=True</arg>
+<arg>value_types=None</arg>
+<arg>*allowed_types</arg>
+</arguments>
+<doc>Returns a dictionary.
+
+:nb_elements: number of elements for dictionary
+:variable_nb_elements: is use variable number of elements for dictionary
+:value_types: type of dictionary values</doc>
+</kw>
+<kw lineno="52" name="Pyfloat" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>left_digits=None</arg>
+<arg>right_digits=None</arg>
+<arg>positive=False</arg>
+<arg>min_value=None</arg>
+<arg>max_value=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="104" name="Pyint" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>min_value=0</arg>
+<arg>max_value=9999</arg>
+<arg>step=1</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="138" name="Pyiterable" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>nb_elements=10</arg>
+<arg>variable_nb_elements=True</arg>
+<arg>value_types=None</arg>
+<arg>*allowed_types</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="130" name="Pylist" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>nb_elements=10</arg>
+<arg>variable_nb_elements=True</arg>
+<arg>value_types=None</arg>
+<arg>*allowed_types</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="122" name="Pyset" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>nb_elements=10</arg>
+<arg>variable_nb_elements=True</arg>
+<arg>value_types=None</arg>
+<arg>*allowed_types</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="31" name="Pystr" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>min_chars=None</arg>
+<arg>max_chars=20</arg>
+</arguments>
+<doc>Generates a random string of upper and lowercase letters.
+:type min_chars: int
+:type max_chars: int
+:return: String. Random of random length between min and max characters.</doc>
+</kw>
+<kw lineno="49" name="Pystr Format" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>string_format=?#-###{{random_int}}{{random_letter}}</arg>
+<arg>letters=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="195" name="Pystruct" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>count=10</arg>
+<arg>value_types=None</arg>
+<arg>*allowed_types</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="114" name="Pytuple" source="C:\Python37\Lib\site-packages\faker\providers\python\__init__.py">
+<arguments>
+<arg>nb_elements=10</arg>
+<arg>variable_nb_elements=True</arg>
+<arg>value_types=None</arg>
+<arg>*allowed_types</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="303" name="Random Choices" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>elements=('a', 'b', 'c')</arg>
+<arg>length=None</arg>
+</arguments>
+<doc>Generate a list of objects randomly sampled from ``elements`` with replacement.
+
+For information on the ``elements`` and ``length`` arguments, please refer to
+:meth:`random_elements() &lt;faker.providers.BaseProvider.random_elements&gt;` which
+is used under the hood with the ``unique`` argument explicitly set to ``False``.
+
+:sample: elements=('a', 'b', 'c', 'd')
+:sample: elements=('a', 'b', 'c', 'd'), length=10
+:sample: elements=OrderedDict([
+             ("a", 0.45),
+             ("b", 0.35),
+             ("c", 0.15),
+             ("d", 0.05),
+         ])
+:sample: elements=OrderedDict([
+             ("a", 0.45),
+             ("b", 0.35),
+             ("c", 0.15),
+             ("d", 0.05),
+         ]), length=20</doc>
+</kw>
+<kw lineno="116" name="Random Digit" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random digit (0 to 9).
+
+:sample:</doc>
+</kw>
+<kw lineno="123" name="Random Digit Not Null" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random non-zero digit (1 to 9).
+
+:sample:</doc>
+</kw>
+<kw lineno="143" name="Random Digit Not Null Or Empty" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random non-zero digit (1 to 9) or an empty string.
+
+This method will return an empty string 50% of the time,
+and each digit has a 1/18 chance of being generated.
+
+:sample size=10:</doc>
+</kw>
+<kw lineno="130" name="Random Digit Or Empty" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random digit (0 to 9) or an empty string.
+
+This method will return an empty string 50% of the time,
+and each digit has a 1/20 chance of being generated.
+
+:sample size=10:</doc>
+</kw>
+<kw lineno="327" name="Random Element" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>elements=('a', 'b', 'c')</arg>
+</arguments>
+<doc>Generate a randomly sampled object from ``elements``.
+
+For information on the ``elements`` argument, please refer to
+:meth:`random_elements() &lt;faker.providers.BaseProvider.random_elements&gt;` which
+is used under the hood with the ``unique`` argument set to ``False`` and the
+``length`` argument set to ``1``.
+
+:sample: elements=('a', 'b', 'c', 'd')
+:sample size=10: elements=OrderedDict([
+             ("a", 0.45),
+             ("b", 0.35),
+             ("c", 0.15),
+             ("d", 0.05),
+         ])</doc>
+</kw>
+<kw lineno="218" name="Random Elements" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>elements=('a', 'b', 'c')</arg>
+<arg>length=None</arg>
+<arg>unique=False</arg>
+</arguments>
+<doc>Generate a list of randomly sampled objects from ``elements``.
+
+Set ``unique`` to ``False`` for random sampling with replacement, and set ``unique`` to
+``True`` for random sampling without replacement.
+
+If ``length`` is set to ``None`` or is omitted, ``length`` will be set to a random
+integer from 1 to the size of ``elements``.
+
+The value of ``length`` cannot be greater than the number of objects
+in ``elements`` if ``unique`` is set to ``True``.
+
+The value of ``elements`` can be any sequence type (``list``, ``tuple``, ``set``,
+``string``, etc) or an ``OrderedDict`` type. If it is the latter, the keys will be
+used as the objects for sampling, and the values will be used as weighted probabilities
+if ``unique`` is set to ``False``. For example:
+
+.. code-block:: python
+
+    # Random sampling with replacement
+    fake.random_elements(
+        elements=OrderedDict([
+            ("variable_1", 0.5),        # Generates "variable_1" 50% of the time
+            ("variable_2", 0.2),        # Generates "variable_2" 20% of the time
+            ("variable_3", 0.2),        # Generates "variable_3" 20% of the time
+            ("variable_4": 0.1),        # Generates "variable_4" 10% of the time
+        ]), unique=False
+    )
+
+    # Random sampling without replacement (defaults to uniform distribution)
+    fake.random_elements(
+        elements=OrderedDict([
+            ("variable_1", 0.5),
+            ("variable_2", 0.2),
+            ("variable_3", 0.2),
+            ("variable_4": 0.1),
+        ]), unique=True
+    )
+
+:sample: elements=('a', 'b', 'c', 'd'), unique=False
+:sample: elements=('a', 'b', 'c', 'd'), unique=True
+:sample: elements=('a', 'b', 'c', 'd'), length=10, unique=False
+:sample: elements=('a', 'b', 'c', 'd'), length=4, unique=True
+:sample: elements=OrderedDict([
+                ("a", 0.45),
+                ("b", 0.35),
+               ("c", 0.15),
+               ("d", 0.05),
+           ]), length=20, unique=False
+:sample: elements=OrderedDict([
+               ("a", 0.45),
+               ("b", 0.35),
+               ("c", 0.15),
+               ("d", 0.05),
+           ]), unique=True</doc>
+</kw>
+<kw lineno="103" name="Random Int" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>min=0</arg>
+<arg>max=9999</arg>
+<arg>step=1</arg>
+</arguments>
+<doc>Generate a random integer between two integers ``min`` and ``max`` inclusive
+while observing the provided ``step`` value.
+
+This method is functionally equivalent to randomly sampling an integer
+from the sequence ``range(min, max + 1, step)``.
+
+:sample:
+:sample size=10: min=0, max=15
+:sample size=10: min=0, max=15, step=3</doc>
+</kw>
+<kw lineno="185" name="Random Letter" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random ASCII letter (a-z and A-Z).
+
+:sample:</doc>
+</kw>
+<kw lineno="193" name="Random Letters" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>length=16</arg>
+</arguments>
+<doc>Generate a list of random ASCII letters (a-z and A-Z) of the specified ``length``.
+
+:sample:
+:sample: length=10</doc>
+</kw>
+<kw lineno="204" name="Random Lowercase Letter" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random lowercase ASCII letter (a-z).
+
+:sample:</doc>
+</kw>
+<kw lineno="156" name="Random Number" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>digits=None</arg>
+<arg>fix_len=False</arg>
+</arguments>
+<doc>Generate a random integer according to the following rules:
+
+- If ``digits`` is ``None`` (default), its value will be set to a random
+  integer from 1 to 9.
+- If ``fix_len`` is ``False`` (default), all integers that do not exceed
+  the number of ``digits`` can be generated.
+- If ``fix_len`` is ``True``, only integers with the exact number of
+  ``digits`` can be generated.
+
+:sample: fix_len=False
+:sample: fix_len=True
+:sample: digits=3
+:sample: digits=3, fix_len=False
+:sample: digits=3, fix_len=True</doc>
+</kw>
+<kw lineno="346" name="Random Sample" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>elements=('a', 'b', 'c')</arg>
+<arg>length=None</arg>
+</arguments>
+<doc>Generate a list of objects randomly sampled from ``elements`` without replacement.
+
+For information on the ``elements`` and ``length`` arguments, please refer to
+:meth:`random_elements() &lt;faker.providers.BaseProvider.random_elements&gt;` which
+is used under the hood with the ``unique`` argument explicitly set to ``True``.
+
+:sample: elements=('a', 'b', 'c', 'd', 'e', 'f')
+:sample: elements=('a', 'b', 'c', 'd', 'e', 'f'), length=3</doc>
+</kw>
+<kw lineno="211" name="Random Uppercase Letter" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate a random uppercase ASCII letter (A-Z).
+
+:sample:</doc>
+</kw>
+<kw lineno="358" name="Randomize Nb Elements" source="C:\Python37\Lib\site-packages\faker\providers\__init__.py">
+<arguments>
+<arg>number=10</arg>
+<arg>le=False</arg>
+<arg>ge=False</arg>
+<arg>min=None</arg>
+<arg>max=None</arg>
+</arguments>
+<doc>Generate a random integer near ``number`` according to the following rules:
+
+- If ``le`` is ``False`` (default), allow generation up to 140% of ``number``.
+  If ``True``, upper bound generation is capped at 100%.
+- If ``ge`` is ``False`` (default), allow generation down to 60% of ``number``.
+  If ``True``, lower bound generation is capped at 100%.
+- If a numerical value for ``min`` is provided, generated values less than ``min``
+  will be clamped at ``min``.
+- If a numerical value for ``max`` is provided, generated values greater than
+  ``max`` will be clamped at ``max``.
+- If both ``le`` and ``ge`` are ``True``, the value of ``number`` will automatically
+  be returned, regardless of the values supplied for ``min`` and ``max``.
+
+:sample: number=100
+:sample: number=100, ge=True
+:sample: number=100, ge=True, min=120
+:sample: number=100, le=True
+:sample: number=100, le=True, max=80
+:sample: number=79, le=True, ge=True, min=80</doc>
+</kw>
+<kw lineno="176" name="Rgb Color" source="C:\Python37\Lib\site-packages\faker\providers\color\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate random color formatted as comma-separated RGB value
+
+:sample:</doc>
+</kw>
+<kw lineno="183" name="Rgb Css Color" source="C:\Python37\Lib\site-packages\faker\providers\color\__init__.py">
+<arguments>
+</arguments>
+<doc>Generate random color formatted as a CSS rgb() function
+
+:sample:</doc>
+</kw>
+<kw lineno="135" name="Safari" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="162" name="Safe Color Name" source="C:\Python37\Lib\site-packages\faker\providers\color\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="131" name="Safe Email" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="172" name="Safe Hex Color" source="C:\Python37\Lib\site-packages\faker\providers\color\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="349" name="Secondary Address" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="66" name="Seed" source="C:\Python37\Lib\site-packages\FakerLibrary\keywords.py">
+<arguments>
+<arg>seed=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="57" name="Seed Instance" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>seed=None</arg>
+</arguments>
+<doc>Calls random.seed</doc>
+</kw>
+<kw lineno="56" name="Sentence" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>nb_words=6</arg>
+<arg>variable_nb_words=True</arg>
+<arg>ext_word_list=None</arg>
+</arguments>
+<doc>Generate a random sentence
+:example 'Lorem ipsum dolor sit amet.'
+
+:param nb_words: around how many words the sentence should contain
+:param variable_nb_words: set to false if you want exactly ``nb``
+    words returned, otherwise the result may include a number of words
+    of ``nb`` +/-40% (with a minimum of 1)
+:param ext_word_list: a list of words you would like to have instead of
+    'Lorem ipsum'.
+
+:rtype: str</doc>
+</kw>
+<kw lineno="81" name="Sentences" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>nb=3</arg>
+<arg>ext_word_list=None</arg>
+</arguments>
+<doc>Generate an array of sentences
+:example ['Lorem ipsum dolor sit amet.', 'Consectetur adipisicing eli.']
+
+Keyword arguments:
+:param nb: how many sentences to return
+:param ext_word_list: a list of words you would like to have instead of
+    'Lorem ipsum'.
+
+:rtype: list</doc>
+</kw>
+<kw lineno="91" name="Set Formatter" source="C:\Python37\Lib\site-packages\faker\generator.py">
+<arguments>
+<arg>self</arg>
+<arg>name</arg>
+<arg>method</arg>
+</arguments>
+<doc>This method adds a provider method to generator.
+Override this method to add some decoration or logging stuff.</doc>
+</kw>
+<kw lineno="60" name="Sha 1" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>raw_output=False</arg>
+</arguments>
+<doc>Generate a random SHA1 hash.
+
+If ``raw_output`` is ``False`` (default), a hexadecimal string representation of the SHA1 hash
+will be returned. If ``True``, a ``bytes`` object representation will be returned instead.
+
+:sample: raw_output=False
+:sample: raw_output=True</doc>
+</kw>
+<kw lineno="74" name="Sha 256" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>raw_output=False</arg>
+</arguments>
+<doc>Generate a random SHA256 hash.
+
+If ``raw_output`` is ``False`` (default), a hexadecimal string representation of the SHA56 hash
+will be returned. If ``True``, a ``bytes`` object representation will be returned instead.
+
+:sample: raw_output=False
+:sample: raw_output=True</doc>
+</kw>
+<kw lineno="12" name="Simple Profile" source="C:\Python37\Lib\site-packages\faker\providers\profile\__init__.py">
+<arguments>
+<arg>sex=None</arg>
+</arguments>
+<doc>Generates a basic profile with personal informations</doc>
+</kw>
+<kw lineno="556" name="Slug" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>value=None</arg>
+</arguments>
+<doc>Django algorithm</doc>
+</kw>
+<kw lineno="201" name="Ssn" source="C:\Python37\Lib\site-packages\faker\providers\ssn\en_US\__init__.py">
+<arguments>
+<arg>taxpayer_identification_number_type=SSN</arg>
+</arguments>
+<doc>Generate a random United States Taxpayer Identification Number of the specified type.
+
+If no type is specified, a US SSN is returned.</doc>
+</kw>
+<kw lineno="354" name="State" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="357" name="State Abbr" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+<arg>include_territories=True</arg>
+</arguments>
+<doc>:returns: A random state or territory abbreviation.
+
+:param include_territories: If True, territories will be included.
+    If False, only states will be returned.</doc>
+</kw>
+<kw lineno="55" name="Street Address" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc>:example '791 Crist Parks'</doc>
+</kw>
+<kw lineno="48" name="Street Name" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'Crist Parks'</doc>
+</kw>
+<kw lineno="29" name="Street Suffix" source="C:\Python37\Lib\site-packages\faker\providers\address\__init__.py">
+<arguments>
+</arguments>
+<doc>:example 'Avenue'</doc>
+</kw>
+<kw lineno="81" name="Suffix" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="95" name="Suffix Female" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="90" name="Suffix Male" source="C:\Python37\Lib\site-packages\faker\providers\person\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="218" name="Tar" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>uncompressed_size=65536</arg>
+<arg>num_files=1</arg>
+<arg>min_file_size=4096</arg>
+<arg>compression=None</arg>
+</arguments>
+<doc>Generate a bytes object containing a random valid tar file.
+
+The number and sizes of files contained inside the resulting archive can be controlled
+using the following arguments:
+
+- ``uncompressed_size`` - the total size of files before compression, 16 KiB by default
+- ``num_files`` - the number of files archived in resulting zip file, 1 by default
+- ``min_file_size`` - the minimum size of each file before compression, 4 KiB by default
+
+No compression is used by default, but setting ``compression`` to one of the values listed
+below will use the corresponding compression type.
+
+- ``'bzip2'`` or ``'bz2'`` for BZIP2
+- ``'lzma'`` or ``'xz'`` for LZMA
+- ``'gzip'`` or ``'gz'`` for GZIP
+
+:sample: uncompressed_size=256, num_files=4, min_file_size=32
+:sample: uncompressed_size=256, num_files=32, min_file_size=4, compression='bz2'</doc>
+</kw>
+<kw lineno="141" name="Text" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>max_nb_chars=200</arg>
+<arg>ext_word_list=None</arg>
+</arguments>
+<doc>Generate a text string.
+Depending on the ``max_nb_chars, returns a string made of words, sentences, or paragraphs.
+:example 'Sapiente sunt omnis. Ut pariatur ad autem ducimus et. Voluptas rem voluptas sint modi dolorem amet.'
+
+Keyword arguments:
+:param max_nb_chars: Maximum number of characters the text should contain (minimum 5)
+:param ext_word_list: a list of words you would like to have instead of 'Lorem ipsum'.
+
+:rtype str</doc>
+</kw>
+<kw lineno="200" name="Texts" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>nb_texts=3</arg>
+<arg>max_nb_chars=200</arg>
+<arg>ext_word_list=None</arg>
+</arguments>
+<doc>Generate an array of texts
+:example [text1, text2, text3]
+:param nb_texts: How many texts to return
+:param max_nb_chars: Maximum number of characters the text should contain (minimum 5)
+:param ext_word_list: a list of words you would like to have instead of 'Lorem ipsum'.
+
+:rtype: list</doc>
+</kw>
+<kw lineno="1468" name="Time" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>pattern=%H:%M:%S</arg>
+<arg>end_datetime=None</arg>
+</arguments>
+<doc>Get a time string (24h format by default)
+:param pattern format
+:example '15:02:34'</doc>
+</kw>
+<kw lineno="1395" name="Time Delta" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>end_datetime=None</arg>
+</arguments>
+<doc>Get a timedelta object</doc>
+</kw>
+<kw lineno="1477" name="Time Object" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>end_datetime=None</arg>
+</arguments>
+<doc>Get a time object
+:example datetime.time(15, 56, 56, 772876)</doc>
+</kw>
+<kw lineno="1922" name="Time Series" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>start_date=-30d</arg>
+<arg>end_date=now</arg>
+<arg>precision=None</arg>
+<arg>distrib=None</arg>
+<arg>tzinfo=None</arg>
+</arguments>
+<doc>Returns a generator yielding tuples of ``(&lt;datetime&gt;, &lt;value&gt;)``.
+
+The data points will start at ``start_date``, and be at every time interval specified by
+``precision``.
+``distrib`` is a callable that accepts ``&lt;datetime&gt;`` and returns ``&lt;value&gt;``</doc>
+</kw>
+<kw lineno="1984" name="Timezone" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="252" name="Tld" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="352" name="Tsv" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>header=None</arg>
+<arg>data_columns=('{{name}}', '{{address}}')</arg>
+<arg>num_rows=10</arg>
+<arg>include_row_ids=False</arg>
+</arguments>
+<doc>Generate random tab-separated values.
+
+For more information on the different arguments of this method, please refer to
+:meth:`dsv() &lt;faker.providers.misc.Provider.dsv&gt;` which is used under the hood.
+
+:sample: data_columns=('{{name}}', '{{address}}'), num_rows=10, include_row_ids=False
+:sample: header=('Name', 'Address', 'Favorite Color'),
+        data_columns=('{{name}}', '{{address}}', '{{safe_color_name}}'),
+        num_rows=10, include_row_ids=True</doc>
+</kw>
+<kw lineno="240" name="Unix Device" source="C:\Python37\Lib\site-packages\faker\providers\file\__init__.py">
+<arguments>
+<arg>prefix=None</arg>
+</arguments>
+<doc>:param prefix: sd|vd|xvd</doc>
+</kw>
+<kw lineno="249" name="Unix Partition" source="C:\Python37\Lib\site-packages\faker\providers\file\__init__.py">
+<arguments>
+<arg>prefix=None</arg>
+</arguments>
+<doc>:param prefix: sd|vd|xvd</doc>
+</kw>
+<kw lineno="1385" name="Unix Time" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+<arg>end_datetime=None</arg>
+<arg>start_datetime=None</arg>
+</arguments>
+<doc>Get a timestamp between January 1, 1970 and now, unless passed
+explicit start_datetime or end_datetime values.
+:example 1061306726</doc>
+</kw>
+<kw lineno="153" name="Upc A" source="C:\Python37\Lib\site-packages\faker\providers\barcode\__init__.py">
+<arguments>
+<arg>upc_ae_mode=False</arg>
+<arg>base=None</arg>
+<arg>number_system_digit=None</arg>
+</arguments>
+<doc>Generate a 12-digit UPC-A barcode.
+
+The value of ``upc_ae_mode`` controls how barcodes will be generated. If ``False``
+(default), barcodes are not guaranteed to have a UPC-E equivalent. In this mode,
+the method uses :meth:`ean13 &lt;faker.providers.barcode.Provider.ean13&gt;` under the hood,
+and the values of ``base`` and ``number_system_digit`` will be ignored.
+
+If ``upc_ae_mode`` is ``True``, the resulting barcodes are guaranteed to have a UPC-E
+equivalent, and the values of ``base`` and ``number_system_digit`` will be used to
+control what is generated.
+
+Under this mode, ``base`` is expected to have a 6-digit string value. If any other value
+is supplied, a random 6-digit string will be used instead. As for ``number_system_digit``,
+the expected value is a ``0`` or a ``1``. If any other value is provided, this method
+will randomly choose from the two.
+
+.. important::
+
+   When ``upc_ae_mode`` is enabled, you might encounter instances where different values
+   of ``base`` (e.g. ``'120003'`` and ``'120004'``) produce the same UPC-A barcode. This
+   is normal, and the reason lies within the whole conversion process. To learn more about
+   this and what ``base`` and ``number_system_digit`` actually represent, please refer
+   to :meth:`upc_e() &lt;faker.providers.barcode.Provider.upc_e&gt;`.
+
+:sample:
+:sample: upc_ae_mode=True, number_system_digit=0
+:sample: upc_ae_mode=True, number_system_digit=1
+:sample: upc_ae_mode=True, base='123456', number_system_digit=0
+:sample: upc_ae_mode=True, base='120003', number_system_digit=0
+:sample: upc_ae_mode=True, base='120004', number_system_digit=0</doc>
+</kw>
+<kw lineno="191" name="Upc E" source="C:\Python37\Lib\site-packages\faker\providers\barcode\__init__.py">
+<arguments>
+<arg>base=None</arg>
+<arg>number_system_digit=None</arg>
+<arg>safe_mode=True</arg>
+</arguments>
+<doc>Generate an 8-digit UPC-E barcode.
+
+UPC-E barcodes can be expressed in 6, 7, or 8-digit formats, but this method uses the
+8 digit format, since it is trivial to convert to the other two formats. The first digit
+(starting from the left) is controlled by ``number_system_digit``, and it can only be a
+``0`` or a ``1``. The last digit is the check digit that is inherited from the UPC-E barcode's
+UPC-A equivalent. The middle six digits are collectively referred to as the ``base`` (for a
+lack of a better term).
+
+On that note, this method uses ``base`` and ``number_system_digit`` to first generate a
+UPC-A barcode for the check digit, and what happens next depends on the value of ``safe_mode``.
+The argument ``safe_mode`` exists, because there are some UPC-E values that share the same
+UPC-A equivalent. For example, any UPC-E barcode of the form ``abc0000d``, ``abc0003d``, and
+``abc0004d`` share the same UPC-A value ``abc00000000d``, but that UPC-A value will only convert
+to ``abc0000d`` because of (a) how UPC-E is just a zero-suppressed version of UPC-A and (b) the
+rules around the conversion.
+
+If ``safe_mode`` is ``True`` (default), this method performs another set of conversions to
+guarantee that the UPC-E barcodes generated can be converted to UPC-A, and that UPC-A
+barcode can be converted back to the original UPC-E barcode. Using the example above, even
+if the bases ``120003`` or ``120004`` are used, the resulting UPC-E barcode will always
+use the base ``120000``.
+
+If ``safe_mode`` is ``False``, then the ``number_system_digit``, ``base``, and the computed
+check digit will just be concatenated together to produce the UPC-E barcode, and attempting
+to convert the barcode to UPC-A and back again to UPC-E will exhibit the behavior described
+above.
+
+:sample:
+:sample: base='123456'
+:sample: base='123456', number_system_digit=0
+:sample: base='123456', number_system_digit=1
+:sample: base='120000', number_system_digit=0
+:sample: base='120003', number_system_digit=0
+:sample: base='120004', number_system_digit=0
+:sample: base='120000', number_system_digit=0, safe_mode=False
+:sample: base='120003', number_system_digit=0, safe_mode=False
+:sample: base='120004', number_system_digit=0, safe_mode=False</doc>
+</kw>
+<kw lineno="551" name="Uri" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="548" name="Uri Extension" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="539" name="Uri Page" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="542" name="Uri Path" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>deep=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="264" name="Url" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+<arg>schemes=None</arg>
+</arguments>
+<doc>:param schemes: a list of strings to use as schemes, one will chosen randomly.
+If None, it will generate http and https urls.
+Passing an empty list will result in schemeless url generation like "://domain.com".
+
+:returns: a random url string.</doc>
+</kw>
+<kw lineno="44" name="User Agent" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="176" name="User Name" source="C:\Python37\Lib\site-packages\faker\providers\internet\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="89" name="Uuid 4" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>cast_to=&lt;class 'str'&gt;</arg>
+</arguments>
+<doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.
+
+By default, ``cast_to`` is set to ``str``.
+
+May be called with ``cast_to=None`` to return a full-fledged ``UUID``.
+
+:sample:
+:sample: cast_to=None</doc>
+</kw>
+<kw lineno="199" name="Windows Platform Token" source="C:\Python37\Lib\site-packages\faker\providers\user_agent\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="45" name="Word" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>ext_word_list=None</arg>
+</arguments>
+<doc>:returns: A random word, eg: 'lorem'
+
+:param ext_word_list: a list of words you would like to have instead of
+    'Lorem ipsum'
+
+:rtype: str</doc>
+</kw>
+<kw lineno="28" name="Words" source="C:\Python37\Lib\site-packages\faker\providers\lorem\__init__.py">
+<arguments>
+<arg>nb=3</arg>
+<arg>ext_word_list=None</arg>
+<arg>unique=False</arg>
+</arguments>
+<doc>:returns: An array of random words. for example: ['Lorem', 'ipsum', 'dolor']
+
+Keyword arguments:
+:param nb: how many words to return
+:param ext_word_list: a list of words you would like to have instead of
+    'Lorem ipsum'
+:param unique: If True, the returned word list will contain unique words
+
+:rtype: list</doc>
+</kw>
+<kw lineno="1975" name="Year" source="C:\Python37\Lib\site-packages\faker\providers\date_time\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="160" name="Zip" source="C:\Python37\Lib\site-packages\faker\providers\misc\__init__.py">
+<arguments>
+<arg>uncompressed_size=65536</arg>
+<arg>num_files=1</arg>
+<arg>min_file_size=4096</arg>
+<arg>compression=None</arg>
+</arguments>
+<doc>Generate a bytes object containing a random valid zip archive file.
+
+The number and sizes of files contained inside the resulting archive can be controlled
+using the following arguments:
+
+- ``uncompressed_size`` - the total size of files before compression, 16 KiB by default
+- ``num_files`` - the number of files archived in resulting zip file, 1 by default
+- ``min_file_size`` - the minimum size of each file before compression, 4 KiB by default
+
+No compression is used by default, but setting ``compression`` to one of the values listed
+below will use the corresponding compression type.
+
+- ``'bzip2'`` or ``'bz2'`` for BZIP2
+- ``'lzma'`` or ``'xz'`` for LZMA
+- ``'deflate'``, ``'gzip'``, or ``'gz'`` for GZIP
+
+:sample: uncompressed_size=256, num_files=4, min_file_size=32
+:sample: uncompressed_size=256, num_files=32, min_file_size=4, compression='bz2'</doc>
+</kw>
+<kw lineno="422" name="Zipcode" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="425" name="Zipcode In State" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+<arg>state_abbr=None</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="371" name="Zipcode Plus4" source="C:\Python37\Lib\site-packages\faker\providers\address\en_US\__init__.py">
+<arguments>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

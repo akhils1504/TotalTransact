@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2021-01-13T11:38:21Z" lineno="1" name="HttpLibrary" namedargs="true" scope="GLOBAL" source="C:\Python37\Lib\site-packages\HttpLibrary\__init__.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``HttpLibrary``.</doc>
+<kw lineno="51" name="B 64 Encode" source="C:\Python37\lib\base64.py">
+<arguments>
+<arg>s</arg>
+<arg>altchars=None</arg>
+</arguments>
+<doc>Encode the bytes-like object s using Base64 and return a bytes object.
+
+Optional altchars should be a byte string of length 2 which specifies an
+alternative alphabet for the '+' and '/' characters.  This allows an
+application to e.g. generate url or filesystem safe Base64 strings.</doc>
+</kw>
+<kw lineno="13" name="Load Json">
+<arguments>
+<arg>json_string</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="361" name="Urlparse" source="C:\Python37\lib\urllib\parse.py">
+<arguments>
+<arg>url</arg>
+<arg>scheme=</arg>
+<arg>allow_fragments=True</arg>
+</arguments>
+<doc>Parse a URL into 6 components:
+&lt;scheme&gt;://&lt;netloc&gt;/&lt;path&gt;;&lt;params&gt;?&lt;query&gt;#&lt;fragment&gt;
+Return a 6-tuple: (scheme, netloc, path, params, query, fragment).
+Note that we don't break the components up in smaller bits
+(e.g. netloc is a single string) and we don't expand % escapes.</doc>
+</kw>
+<kw lineno="67" name="Wraps" source="C:\Python37\lib\functools.py">
+<arguments>
+<arg>wrapped</arg>
+<arg>assigned=('__module__', '__name__', '__qualname__', '__doc__', '__annotations__')</arg>
+<arg>updated=('__dict__',)</arg>
+</arguments>
+<doc>Decorator factory to apply update_wrapper() to a wrapper function
+
+Returns a decorator that invokes update_wrapper() with the decorated
+function as the wrapper argument and the arguments to wraps() as the
+remaining arguments. Default arguments are as for update_wrapper().
+This is a convenience function to simplify applying partial() to
+update_wrapper().</doc>
+</kw>
+</keywordspec>

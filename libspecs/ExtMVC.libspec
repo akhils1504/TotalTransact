@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec generated="20190208 12:33:08" type="library" name="ExtMVC" format="ROBOT">
+<version>0.1</version>
+<scope>test suite</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``ExtMVC``.</doc>
+<kw name="Add Selenium Library To Extmvc">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Build Component">
+<arguments>
+<arg>query=None</arg>
+<arg>arguments=component{isVisible(true)}</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Build Scope Component">
+<arguments>
+<arg>query=None</arg>
+<arg>scope=None</arg>
+<arg>arguments=component</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Check If Payment Account Is Ach">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Check If Payment Account Is Card">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Customer By Address">
+<arguments>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Customer By Business Name">
+<arguments>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Customer By Fullname">
+<arguments>
+<arg>lastname</arg>
+<arg>firstname</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Customer By Id">
+<arguments>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Customer By Name">
+<arguments>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Customer From Gridlist">
+<arguments>
+<arg>name</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Customers Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Dashboard Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose First Customer">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose First Payment Account">
+<arguments>
+<arg>paymentType</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Installment Payment Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose One Time Payment Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Payment Accout By Name">
+<arguments>
+<arg>value</arg>
+<arg>paymentType</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Payment Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Recurring Payment Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Reporting Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Research Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Choose Settings Tab">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Click Ext Button">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Click Selected Ext Gridrow">
+<arguments>
+<arg>latency=None</arg>
+<arg>itemId=None</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Component Visible">
+<arguments>
+<arg>component</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Account Location Combobox Has Records">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Account Location Is Expected">
+<arguments>
+<arg>expectedValue</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Active Window Is Expected">
+<arguments>
+<arg>expectedItemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Checkboxfield Is Visible">
+<arguments>
+<arg>expectedItemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Displayfield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+<arg>expectedValue</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Panel Focused Is Visible">
+<arguments>
+<arg>expectedItemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Record Selected">
+<arguments>
+<arg>itemId</arg>
+<arg>name</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Confirm Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+<arg>expectedValue</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Create Ext Dictionary">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Create New Payment Account">
+<arguments>
+<arg>paymentType</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Execute Ext">
+<arguments>
+<arg>script</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Execute Returned Ext">
+<arguments>
+<arg>script</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ext Blur">
+<arguments>
+<arg>component</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ext Button Firehandler">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ext Checkbox Should Contain">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ext Combobox Should Contain">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ext Filter Grids">
+<arguments>
+<arg>array</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ext Radiofield Should Contain">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ext Textfield Should Contain">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Active Tab">
+<arguments>
+<arg>tabpanel</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Active Window Instance">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Alert Instance">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Basic Component">
+<arguments>
+<arg>selector</arg>
+<arg>params=None</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Basic Component With Args">
+<arguments>
+<arg>selector</arg>
+<arg>args</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Basic Scope Component">
+<arguments>
+<arg>selector</arg>
+<arg>scope</arg>
+<arg>params=None</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Displayfield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Internationalized Text">
+<arguments>
+<arg>msnumber</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Navigation Tab">
+<arguments>
+<arg>selector</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Navigation Tab By Text">
+<arguments>
+<arg>msnumber</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Navigation Tab Card">
+<arguments>
+<arg>msnumber</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Navigation Tab Panel">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Navigation Tabs">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Record Id">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Return Display Value">
+<arguments>
+<arg>component</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Return Value">
+<arguments>
+<arg>component</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Sub Navigation Tab By Text">
+<arguments>
+<arg>msnumber</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Sub Navigation Tab Card">
+<arguments>
+<arg>msnumber</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Sub Navigation Tab Panel">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Sub Navigation Tabs">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Tabbar">
+<arguments>
+<arg>tabpanel</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Tabpane">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Tabpanel Tabs">
+<arguments>
+<arg>tabpanel</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Value">
+<arguments>
+<arg>component</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Visible Checkboxfield">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Visible Panel">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Visible Textfield">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Get Window Instance">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Hello">
+<arguments>
+<arg>name</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="List All Ach Payment Accounts">
+<arguments>
+<arg>paymentType</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="List All Card Payment Accounts">
+<arguments>
+<arg>paymentType</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="List All Customers">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Payment Account List Should Contain">
+<arguments>
+<arg>value</arg>
+<arg>paymentType</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Random Expiration Month">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Random Expiration Year">
+<arguments>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Return Fire Event">
+<arguments>
+<arg>component</arg>
+<arg>action</arg>
+<arg>scope</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Return Script">
+<arguments>
+<arg>script</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Return Set Raw Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Return Set Unquote Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Return Set Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Select Combobox Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Select Grid Row">
+<arguments>
+<arg>alias</arg>
+<arg>storeId</arg>
+<arg>name</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Select Simple Combobox Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Selected Gridpanel Row Should Contain">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Account Location Combobox Value">
+<arguments>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Active Navigation Tab">
+<arguments>
+<arg>msnumber</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Authorization Radiofield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>associatedRadiofield</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Checkbox Raw Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Checkbox Scope Raw Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+<arg>scope</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Checkbox Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Combobox Unquote Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Combobox Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Datefield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Displayfield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Filefield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Htmleditor Field Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Index Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Payment Method Based On Selection">
+<arguments>
+<arg>itemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Radiofield Raw Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Radiofield Scope Raw Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+<arg>scope</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Radiofield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Raw Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Sub Active Navigation Tab">
+<arguments>
+<arg>msnumber</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Textfield Value">
+<arguments>
+<arg>itemId</arg>
+<arg>value</arg>
+<arg>forceInput=None</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Unquote Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Value">
+<arguments>
+<arg>component</arg>
+<arg>value</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Set Value Based On Selection">
+<arguments>
+<arg>itemId</arg>
+<arg>variable</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Show All Itemids Of">
+<arguments>
+<arg>selector</arg>
+<arg>scopeSelector</arg>
+<arg>scopeSelectorItemId</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Show Ext Authorzation Checkbox">
+<arguments>
+<arg>associatedRadiofield</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ternary Equals">
+<arguments>
+<arg>valueA</arg>
+<arg>valueB</arg>
+<arg>isTrue</arg>
+<arg>isFalse</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Ternary Not Equals">
+<arguments>
+<arg>valueA</arg>
+<arg>valueB</arg>
+<arg>isTrue</arg>
+<arg>isFalse</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Wait For Ext Condition">
+<arguments>
+<arg>itemId</arg>
+<arg>condition={isVisible(true)}</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+<kw name="Wait Until Internationalized Page Contains">
+<arguments>
+<arg>msNumber</arg>
+<arg>timeInSeconds</arg>
+<arg>errorMessge=None</arg>
+</arguments>
+<doc></doc>
+<tags>
+</tags>
+</kw>
+</keywordspec>

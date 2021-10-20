@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2021-02-17T06:17:13Z" lineno="10" name="JSONLibrary" namedargs="true" scope="GLOBAL" source="C:\Python37\Lib\site-packages\JSONLibrary\__init__.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>JSONLibrary is a robotframework testlibrary for manipulating JSON object (dictionary)
+
+You can get, add, update and delete your json object using JSONPath.
+
+== JSONPath Syntax ==
+| JSONPath | Description |
+| $        | the root object/element |
+| @        | the current object/element |
+| . or []  | child operator |
+| ..       | recursive descent. JSONPath borrows this syntax from E4X |
+| *        | wildcard. All objects/element regardless their names. |
+| []       | subscript operator. XPath uses it to iterate over element collections and for predicates. In Javascript and JSON it is the native array operator. |
+| [,]      | Union operator in XPath results in a combination of node sets. JSONPath allows alternate names or array indices as a set. |
+| [start:end:step] | array slice operator borrowed from ES4 |
+| ?()      | applies a filter (script) expression. |
+| ()       | script expression, using the underlying script engine. |
+
+== *** Known issue *** ==
+If there is a space in JSONPath expression, the module used by this library will throw an exception.
+Therefore, please avoid the space in JSONPath expression if possible.
+
+*Example:*
+| JSONPath | Exception? |
+| $.[?(@.id == 1)] | Y |
+| $.[?(@.id==1)] | N |
+| $.[?(@.name=='test 123')] | N |
+
+== Example Test Cases ==
+| *** Settings ***     |
+| Library              | JSONLibrary |
+|                      |
+| *** Test Cases ***   |
+| TestManipulatingJSON |
+| ${json_object}=      |  Load JSON From File  |  example.json  |
+| ${object_to_add}=    |  Create Dictionary    |  country=Thailand |
+| ${json_object}=      |  Add Object To Json   |  ${json_object}  |  $..address  | ${object_to_add} |
+| ${value}=            |  Get Value From Json  |  ${json_object}  |  $..country  |
+| Should Be Equal As Strings  |  ${value[0]}   | Thailand  |</doc>
+<kw lineno="41" name="Add Object To Json" source="C:\Python37\Lib\site-packages\JSONLibrary\JSONLibraryKeywords.py">
+<arguments>
+<arg>json_object</arg>
+<arg>json_path</arg>
+<arg>object_to_add</arg>
+</arguments>
+<doc>Add an dictionary or list object to json object using json_path
+
+Arguments:
+    - json_object: json as a dictionary object.
+    - json_path: jsonpath expression
+    - object_to_add: dictionary or list object to add to json_object which is matched by json_path
+
+Return new json object.
+
+Examples:
+| ${dict}=  | Create Dictionary    | latitude=13.1234 | longitude=130.1234 |
+| ${json}=  |  Add Object To Json  | ${json}          | $..address         |  ${dict} |</doc>
+</kw>
+<kw lineno="126" name="Convert JSON To String" source="C:\Python37\Lib\site-packages\JSONLibrary\JSONLibraryKeywords.py">
+<arguments>
+<arg>json_object</arg>
+</arguments>
+<doc>Convert JSON object to string
+
+Arguments:
+    - json_object: json as a dictionary object.
+
+Return new json_string
+
+Examples:
+| ${json_str}=  |  Convert JSON To String | ${json_obj} |</doc>
+</kw>
+<kw lineno="140" name="Convert String to JSON" source="C:\Python37\Lib\site-packages\JSONLibrary\JSONLibraryKeywords.py">
+<arguments>
+<arg>json_string</arg>
+</arguments>
+<doc>Convert String to JSON object
+
+Arguments:
+    - json_string: JSON string
+
+Return new json_object
+
+Examples:
+| ${json_object}=  |  Convert String to JSON | ${json_string} |</doc>
+</kw>
+<kw lineno="104" name="Delete Object From Json" source="C:\Python37\Lib\site-packages\JSONLibrary\JSONLibraryKeywords.py">
+<arguments>
+<arg>json_object</arg>
+<arg>json_path</arg>
+</arguments>
+<doc>Delete Object From JSON using json_path
+
+Arguments:
+    - json_object: json as a dictionary object.
+    - json_path: jsonpath expression
+
+Return new json_object
+
+Examples:
+| ${json_object}=  |  Delete Object From Json | ${json} |  $..address.streetAddress  |</doc>
+</kw>
+<kw lineno="65" name="Get Value From Json" source="C:\Python37\Lib\site-packages\JSONLibrary\JSONLibraryKeywords.py">
+<arguments>
+<arg>json_object</arg>
+<arg>json_path</arg>
+</arguments>
+<doc>Get Value From JSON using JSONPath
+
+Arguments:
+    - json_object: json as a dictionary object.
+    - json_path: jsonpath expression
+
+Return array of values
+
+Examples:
+| ${values}=  |  Get Value From Json  | ${json} |  $..phone_number |</doc>
+</kw>
+<kw lineno="19" name="Load JSON From File" source="C:\Python37\Lib\site-packages\JSONLibrary\JSONLibraryKeywords.py">
+<arguments>
+<arg>file_name</arg>
+</arguments>
+<doc>Load JSON from file.
+
+Return json as a dictionary object.
+
+Arguments:
+    - file_name: absolute json file name
+
+Return json object (list or dictionary)
+
+Examples:
+| ${result}=  |  Load Json From File  | /path/to/file.json |</doc>
+</kw>
+<kw lineno="81" name="Update Value To Json" source="C:\Python37\Lib\site-packages\JSONLibrary\JSONLibraryKeywords.py">
+<arguments>
+<arg>json_object</arg>
+<arg>json_path</arg>
+<arg>new_value</arg>
+</arguments>
+<doc>Update value to JSON using JSONPath
+
+Arguments:
+    - json_object: json as a dictionary object.
+    - json_path: jsonpath expression
+    - new_value: value to update
+
+Return new json_object
+
+Examples:
+| ${json_object}=  |  Update Value To Json | ${json} |  $..address.streetAddress  |  Ratchadapisek Road |</doc>
+</kw>
+</keywordspec>
